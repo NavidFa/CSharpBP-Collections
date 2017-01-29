@@ -42,5 +42,16 @@ namespace Acme.Biz
 
             return success;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <param name="defaultValue"></param>
+        /// <returns></returns>
+        public T RetrieveValue<T>(string sql, T defaultValue)
+        {
+            T value = defaultValue;
+            return value;
+        }
     }
 }
